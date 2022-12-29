@@ -1,0 +1,1 @@
+document.body.append(function(){const t=document.createElement("div");return t.textContent="Restaurant",t}());
