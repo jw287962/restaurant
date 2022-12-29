@@ -1,0 +1,28 @@
+
+
+
+body{
+    position: relative;
+    /* background:  0% / 15% 80% url(./img/bubbles.svg); 
+    z-index: -100;
+     */
+}
+
+#content{
+    display: flex;
+    align-items: center;
+  
+   justify-content: space-between;
+}
+#leftHeader{
+    display: flex;
+    align-items: center;
+}
+.logo{
+   height: 100px;
+  
+}
+
+a{
+    margin: 10px;
+}

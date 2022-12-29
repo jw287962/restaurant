@@ -1,0 +1,29 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "restaurant homepage",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+   "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jw287962/restaurant.git"
+  },
+  "author": "Jason Wong <jason.wongdevwork@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jw287962/restaurant/issues"
+  },
+  "homepage": "https://github.com/jw287962/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1"
+  }
+}
