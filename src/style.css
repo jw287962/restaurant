@@ -10,9 +10,12 @@
 body{
     font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     position: relative;
+    padding: 0;
+    margin: 0 auto;
     /* background:  0% / 15% 80% url(./img/bubbles.svg); 
     z-index: -100;
      */
+     min-width: 500px;
 }
 
 #content{
@@ -24,8 +27,10 @@ body{
 #header{
     display: flex;
     align-items: center;
-  
+    font-family: 'Roboto-Bold';
    justify-content: space-between;
+   border-bottom: 3px solid grey;
+  
 }
 #leftHeader{
     display: flex;
@@ -36,15 +41,14 @@ body{
   
 }
 
-a{
-    margin: 10px;
-}
+
 
 #pageview{
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
     padding: 3px 10px;
+    font-family: 'Roboto-Bold';
 }
 
 button:active{
@@ -70,7 +74,7 @@ width: 320px;
 height:  320px;
 padding: 25px 35px;
 padding-top: 135px;
-background-color: rgb(155, 194, 218);
+background-color: rgb(174, 209, 231);
 /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
  */
  clip-path: polygon(55% 25%, 50% 0%, 40% 0%, 45% 25%, 0% 25%, 0% 100%, 100% 100%, 100% 25%);

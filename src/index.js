@@ -112,13 +112,13 @@ function homeView(){
 function menuView(){
     makePageTitle('MENU');
     removeBody();
-        console.log('menu');
+        
     }
     
 function contactView(){
     makePageTitle('CONTACTS');
     removeBody();
-        console.log('contact');
+        
     }
 
 
