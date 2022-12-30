@@ -66,9 +66,9 @@ button:active{
    
     position: relative;
 text-align: center;
-width: 300px;
+width: 320px;
 height:  320px;
-padding: 25px 50px;
+padding: 25px 35px;
 padding-top: 135px;
 background-color: rgb(155, 194, 218);
 /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);

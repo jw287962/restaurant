@@ -96,8 +96,8 @@ function homeView(){
     makePageTitle('HOMEPAGE');
 
     removeBody();
-    const   homeAbout = "WE USE FRESH TEA LEAVES THAT ARE GROWN IN HOUSE AND FREE OF PESTICIDES AND OTHER" +
-     "POLLUTANTS. MADE FRESH EVERY DAY JUST FOR YOU! ";
+    const   homeAbout = "WE USE TEA LEAVES THAT HAVE BEEN GROWN AND STUDIED FOR THE PAST 100 YEARS. PESTICIDES AND OTHER" +
+     " POLLUTANT FREE ALWAYS!  FRESHLY BREWED TEA EVERY DAY JUST FOR YOU! ";
     let header = "";
      makeBobaCup(homeAbout, header);
 
