@@ -1,1 +1,6 @@
 # restaurant
+
+IN PROGRESS 
+HOME 
+MENU
+CONTACTS
