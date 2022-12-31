@@ -93,11 +93,11 @@ button:active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./img/bubblecup.svg); 
+    background: url(./img/bubblecup.svg); 
     background-repeat: space;
     background-attachment: scroll, local;
-    background-size: 12%;
-   
+    background-size: 125px 175px;
+    
 }
 .bodytext{
     text-align: left;
