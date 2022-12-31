@@ -133,7 +133,7 @@ function homeView(){
 
      divName = 'hours'
     header = "HOURS OF OPERATION: \r\n";
-     const hours =  "Monday: 10AM - 10PM \r\n" + " Tuesday: 10AM - 10PM \n" + "Wednesday: 10AM - 10PM \n"
+     const hours =  "Monday: 10AM - 10PM \r\n" + "Tuesday: 10AM - 10PM \n" + "Wednesday: 10AM - 10PM \n"
      + "Thursday: 10AM - 10PM \n"  + "Friday: 10AM - 12PM \n" + "Saturday: 10AM - 12PM \n" 
      + "Sunday: 10AM -12PM\n";
      makeBobaCup(hours,header , divName);
@@ -168,12 +168,12 @@ function contactView(){
     makePageTitle('CONTACTS');
     removeBody();
 
-    const   contactDet = "Email: topteausa@fresh.com \n Phone: (123) 345-5556";
+    const   contactDet = "Email: topteausa@fresh.com \nPhone: (123) 345-5556";
    let header = "CONTACT US:";
     makeBobaCup(contactDet, header);
 
    header = "WAITER: \r\n";
-    const waiters =  "Jason W:  \n " +  "   - jason@fresh.com \n - (444) 555-6666";
+    const waiters =  "Jason W:  \n \n" +  "    jason@fresh.com \n    (444) 555-6666";
     makeBobaCup(waiters,header);
         
     }
@@ -196,6 +196,12 @@ homeView();
 var pageViewButtons = document.querySelectorAll('#pageview');
 console.log(pageViewButtons);
 addParagraphStyle();
+
+bodyBottomBorder();
+
+
+footer();
+
 pageViewButtons.forEach(element => {
     element.addEventListener('click', function(){
 
@@ -209,7 +215,7 @@ pageViewButtons.forEach(element => {
         if(element.className.includes('contact')){
             contactView();
         };
-
+        bodyBottomBorder();
         addParagraphStyle();
     });
 })
@@ -217,8 +223,17 @@ pageViewButtons.forEach(element => {
 
 
 
+function footer(){
+const footerDiv = document.createElement('div');
+footerDiv.classList.add('footer');
+footerDiv.textContent = "TOP TEA USA 2030";
+contentDiv.appendChild(footerDiv);
+}
 
-
-
+function bodyBottomBorder(){
+    const bottomBody = document.createElement('h3');
+    bottomBody.setAttribute('id','bottom');
+    bodyDiv.appendChild(bottomBody);
+}
 //need to addeventlistner for menu button and then do the thing to add 
 // the menu part ontop of the existing default page
